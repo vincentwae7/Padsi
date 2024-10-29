@@ -23,8 +23,8 @@ class App extends BaseConfig
      *
      * @var string
      */
-    public $baseURL = 'BASE_URL';
-    // public $baseURL = 'http://localhost/FortunateCoffee/public/';
+    //public $baseURL = 'BASE_URL';
+    public $baseURL = 'http://localhost/FortunateCoffee/public/';
 
     /**
      * --------------------------------------------------------------------------
