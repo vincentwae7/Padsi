@@ -32,21 +32,9 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
-$routes->get('/coba/(:alpha)/(:num)', 'Home::coba/$1/$2');
+$routes->get('/admin', 'admin\Admin::index');
 
-$routes->addPlaceholder('uuid', '[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}');
-$routes->get('/coba2/(:uuid)', function ($uuid) {
-    echo "UUID: " . $uuid;
-});
 
-$routes->addRedirect('/coba3', '/coba');
-
-$routes->group('cb', function ($r) {
-    $r->get('coba/(:alpha)/(:num)', 'Home::coba/$1/$2');
-    $r->get('coba2/(:uuid)', function ($uuid) {
-        echo "UUID: " . $uuid;
-    });
-});
 /* 
  * --------------------------------------------------------------------
  * Additional Routing
