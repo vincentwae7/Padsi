@@ -11,7 +11,8 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-success">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <img src="/img/.jpg" alt="...">
+            <a class="navbar-brand" href="#">Fortunate Coffee Yogyakarta</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -48,15 +49,19 @@
         </div>
     </nav>
     <div class="container">
-        <h1>Halaman Overview</h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci praesentium consequuntur modi possimus doloribus perspiciatis, dolorum est. Culpa eos id possimus voluptas dolorum dolorem, iusto laudantium, unde velit magnam impedit?</p>
+        <h1 style="text-align: center">Welcome to Fortunate Coffee</h1>
+
+        <p style="text-align: center">Fortunate Coffee adalah sebuah kafe yang menawarkan pengalaman unik bagi para pencinta kopi, dengan konsep ramah lingkungan dan pemberdayaan komunitas. Didirikan dengan tujuan untuk menjadi lebih dari sekedar tempat menikmati kopi, Fortunate Coffee berfokus pada menyediakan produk kopi berkualitas tinggi yang diproduksi secara berkelanjutan
+
+            Interior kafe biasanya dirancang dengan konsep minimalis dan modern, menciptakan suasana yang nyaman dan ramah untuk berbagai kegiatan, mulai dari bersantai hingga bekerja. Menu yang ditawarkan tidak hanya berpusat pada kopi, tetapi juga mencakup beragam pilihan makanan sehat dan vegetarian, mencerminkan komitmen Fortunate Coffee untuk gaya hidup sehat dan tanggung jawab sosial.
+        </p>
     </div>
 
     <div class="container">
         <div class="row">
             <div class="col">
                 <div class="card" style="width: 18rem;">
-                    <img src="/img/fortunatecoffee.jpg" class="card-img-top" alt="...">
+                    <img src="/img/fortunatecoffee.jpg" class="card-img-top" alt="FortunateCoffee">
                     <div class="card-body">
                         <p class="card-text">Welcome to Fortunate Coffee Yogyakarta</p>
                     </div>

@@ -1,13 +1,14 @@
 <?php
 
 namespace App\Controllers;
-
+define('_TITLE','beranda');
 class Home extends BaseController
 {
     public function index()
     {
-        return view('beranda');
-       
+        $data = [
+            'title' =>_TITLE
+        ];
+        return view('beranda', $data);
     }
-
 }
