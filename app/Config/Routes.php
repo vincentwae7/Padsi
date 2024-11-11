@@ -33,7 +33,16 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 $routes->get('/admin', 'admin\Admin::index');
-$routes->get('/fiscis', 'Fiscis::index');
+$routes->get('/user', 'User::index');
+$routes->get('user-detail/(:any)', 'User::detail/$1');
+$routes->get('/user-create', 'User::create', ['as' => 'tambah-user']);
+$routes->post('/user-create', 'User::save', ['as' => 'simpan-user']);
+
+// Add these two routes for updating and deleting users
+$routes->post('/user-update', 'User::update', ['as' => 'update-user']);
+$routes->post('/user-delete', 'User::delete', ['as' => 'delete-user']);
+
+
 
 /* 
  * --------------------------------------------------------------------
