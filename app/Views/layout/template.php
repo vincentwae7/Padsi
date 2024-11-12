@@ -26,12 +26,12 @@
             padding-right: 0;
         }
 
-        /* Full height layout */
-        /* html,
+        /* Full height layout */ 
+         html,
         body {
             height: 100%;
-            margin: 0;
-        } */
+            margin: 10;
+        }
 
         /* Main content takes available space */
         #layoutSidenav {
@@ -41,9 +41,9 @@
         }
 
         /* Adjust footer to stick at the bottom */
-        /* footer {
+        footer {
             margin-top: auto;
-        } */
+        }
 
         .sb-sidenav-custom {
             background-color: #28a745;

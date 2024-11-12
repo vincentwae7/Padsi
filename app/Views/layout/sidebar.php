@@ -15,7 +15,7 @@
                          <div class="sb-nav-link-icon"><i class="fa-regular fa-money-bill"></i></div>
                          Transaksi(Kode referal)
                      </a>
-                     <a class="nav-link" href="/">
+                     <a class="nav-link" href="/daftarmenu">
                          <div class="sb-nav-link-icon"><i class="fa-solid fa-utensils"></i></div>
                          Daftar Menu
                      </a>
